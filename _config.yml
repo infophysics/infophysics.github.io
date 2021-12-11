@@ -18,9 +18,8 @@ title: information physics
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   A site about machine learning and topological data analysis in physics.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+github_username: infophysics
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
