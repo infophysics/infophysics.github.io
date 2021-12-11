@@ -68,8 +68,14 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infophysics"
     - label: "UC Davis Machine Learning"
-      icon: "assets/images/ucdavis.jpg"
+      icon: "f126"
       url: "https://github.com/UC-Davis-Machine-Learning"
+    - label: "machine_learning_tutorials"
+      icon: "f126"
+      url: "https://github.com/infophysics/machine_learning_tutorials"
+    - label: "tda_tutorials"
+      icon: "f126"
+      url: "https://github.com/infophysics/tda_tutorials"
 
 footer:
   links:
@@ -84,6 +90,7 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
       comments: true
