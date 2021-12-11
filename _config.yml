@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-#logo: "fas fa-code"
+logo: "assets/images/gluons.png"
 title: information physics
-email:
+email: "ncarrara.physics@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   A site about machine learning and topological data analysis in physics.
 github_username: infophysics
@@ -57,18 +57,22 @@ plugins:
 
 author:
   name   : "Nicholas Carrara"
+  location: "Davis, CA"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Post-doctoral researcher in physics and machine learning at UC Davis."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "infophysics"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infophysics"
+    - label: "UC Davis Neutrino Group"
+      icon: "fas fa-fw fa-atom"
+      url: "http://svoboda.ucdavis.edu/"
     - label: "UC Davis Machine Learning"
       icon: "fas fa-fw fa-code-branch"
       url: "https://github.com/UC-Davis-Machine-Learning"
+    - label: "Open source data"
+      icon: "fas fa-database"
+      url: "https://osf.io/hx6bk/"
     - label: "machine_learning_tutorials"
       icon: "fas fa-fw fa-code-branch"
       url: "https://github.com/infophysics/machine_learning_tutorials"
@@ -78,9 +82,15 @@ author:
 
 footer:
   links:
-    - label: "infophysics"
+    - label: ""
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/nicholas-carrara-01719173/"
+    - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infophysics"
+    - label: ""
+      icon: "fas fa-database"
+      url: "https://osf.io/hx6bk/"
 
 defaults:
   # _posts
