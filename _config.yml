@@ -24,7 +24,12 @@ search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+highlighter: rouge
+
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -54,6 +59,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - highlight-linedivs
 
 author:
   name   : "Nicholas Carrara"
@@ -71,7 +77,7 @@ author:
       icon: "fas fa-fw fa-code-branch"
       url: "https://github.com/UC-Davis-Machine-Learning"
     - label: "Open source data"
-      icon: "fas fa-database"
+      icon: "fas fa-fw fa-database"
       url: "https://osf.io/hx6bk/"
     - label: "machine_learning_tutorials"
       icon: "fas fa-fw fa-code-branch"
@@ -79,6 +85,9 @@ author:
     - label: "tda_tutorials"
       icon: "fas fa-fw fa-code-branch"
       url: "https://github.com/infophysics/tda_tutorials"
+
+header:
+  image: /assets/images/wide_space.jpg
 
 footer:
   links:
