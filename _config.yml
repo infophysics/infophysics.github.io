@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Nicholas Carrara"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Post-doctoral researcher in physics and machine learning at UC Davis."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
