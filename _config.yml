@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-logo: "assets/images/logo.png"
+logo: "fa-f121"
 title: information physics
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -68,13 +68,13 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infophysics"
     - label: "UC Davis Machine Learning"
-      icon: "f126"
+      icon: "fa-fw fa-f126"
       url: "https://github.com/UC-Davis-Machine-Learning"
     - label: "machine_learning_tutorials"
-      icon: "f126"
+      icon: "fa-fw fa-f126"
       url: "https://github.com/infophysics/machine_learning_tutorials"
     - label: "tda_tutorials"
-      icon: "f126"
+      icon: "fa-fw fa-f126"
       url: "https://github.com/infophysics/tda_tutorials"
 
 footer:
